@@ -1,0 +1,231 @@
+@font-face {
+    font-family: fonttitle;
+    src: url(THAILAND.TTF);
+}
+
+
+@font-face {
+    font-family: mainfont;
+    src: url(Poppins-Light.ttf);
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 1200px;
+    max-width: 100%;
+    margin: auto;
+    padding: 20px 0;
+}
+
+nav {
+    width: 100%;
+    padding: 15px 0;
+    background-color: black;
+    float: left;
+}
+
+nav h1 {
+    float: left;
+}
+
+nav ul {
+    float: right;
+}
+
+nav ul li {
+    list-style: none;
+    display: inline;
+    float: left;
+    padding: 35px 15px;
+    font-family: fonttitle;
+}
+
+nav ul li a {
+    background-color: black;
+    color: white;
+    padding: 15px;
+    /* margin: 15px; */
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    background-color: rgb(230, 30, 30);
+    color: black;   
+}
+
+
+
+.clearfix {
+    overflow: auto;
+}
+
+.clearfix::after {
+
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;} 
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+
+[class*="col-"] {
+    float: left;
+    padding: 15px;
+}
+
+.pg {
+    background-color: black;
+    color: white;
+    font-family: mainfont;
+    
+}
+
+h2 {
+    font-family: fonttitle;
+}
+
+
+
+
+
+#burguerlist {
+
+    text-align: left;
+}
+
+
+
+h2 {
+
+    text-align: center;
+}
+
+
+
+h1  {
+
+    text-align: center;
+    padding-top: 30px;
+    font-family: fonttitle;
+}
+
+button {
+
+    font-family: fonttitle;
+    cursor: pointer;
+    background-color: white;
+    
+}
+
+
+
+.main2 {
+
+    color: white;
+    text-align: left;
+    padding-left: 100px;
+    font-family: mainfont;
+    background-color: rgb(15, 15, 15);
+    padding-bottom: 50px;
+    padding-top: 270px;
+}
+
+#botaodeli {
+
+    margin-top: 20px;
+    padding: 20px;
+    border-radius: 5px;
+    width: 200px;
+    font-size: 20px;
+    background-color: #E50B22;
+}
+
+#botaodeli:hover {
+
+    background-color: white;
+    color: #E50B22;
+}
+
+h1 {
+
+    text-align: left;
+    padding-bottom: 10px;
+
+}
+
+body {
+
+    background-color: black;
+}
+
+footer {
+
+    padding: 20px;
+    text-align: center;
+    background-color: #E50B22;
+    color: white;
+    font-family: mainfont;
+}
+
+
+.pedido {
+
+    text-align: center;
+    padding: 20px;
+    background-color: rgb(15, 15, 15);
+    
+}
+
+
+
+
+button {
+
+    text-decoration: none;
+    border: none;
+    background-color: rgb(15, 15, 15);
+    color: white;
+}
+
+.leia {
+
+    text-align: center;
+    padding: 30px;
+}
+
+ul#acess {
+    /* float: right; */
+    margin: 20px;
+    text-align: center;
+}
+
+ul#acess li a {
+    text-decoration: none;
+    text-transform: uppercase;
+    margin: 10px;
+    padding: 10px 5px;
+    border-radius: 7px;
+}
+
+ul#acess li {
+    display: inline;
+    list-style: none;
+
+}
